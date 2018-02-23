@@ -20,9 +20,8 @@ public abstract class AlphaBetaBase extends DraughtsPlayer{
     /** boolean that indicates that the GUI asked the player to stop thinking. */
     private boolean stopped;
 
-    public AlphaBetaBase(int maxSearchDepth) {
+    public AlphaBetaBase() {
         super("botboy.png");
-        this.maxSearchDepth = maxSearchDepth;
     }
     
     @Override public Move getMove(DraughtsState s) {

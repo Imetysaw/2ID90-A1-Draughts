@@ -1,2 +1,7 @@
 DraughtsPlugin/nbproject/private/private.properties
 AICompetition/nbproject/private/private.properties
+/DraughtsPlugin/build/
+/AICompetition/build/
+/AICompetition/dist/
+/DraughtsPlugin/dist/
+AICompetition/nbproject/private/config.properties
